@@ -3,7 +3,9 @@
     <contact-bar class="contact-bar-side"/>
     <theme-selector/>
     <nuxt-link to="/" class="index-link">
-      <h1 class="layout-title"><span>C</span>HRISTOPHER <span>K</span>ADE</h1>
+      <h1 class="layout-title">
+        <span>C</span>HRISTOPHER <span>K</span>ADE
+      </h1>
     </nuxt-link>
     <nuxt/>
     <contact-bar class="contact-bar-bottom"/>
@@ -38,7 +40,7 @@ export default {
 }
 
 .layout-title {
-  font-weight: 400;
+  font-weight: $default-font-weight;
 }
 
 .layout-title > span {
@@ -49,67 +51,11 @@ export default {
   display: none;
 }
 
-.darkTheme {
-  color: $text-dark;
-  background-color: $background-dark;
-
-  .index-link {
-    color: $text-dark;
-  }
-
-  .layout-title > span {
-    color: $highlight-dark;
-  }
-
-  .icon {
-    filter: invert(1);
-  }
-
-  .article-date {
-    color: $text-dark;
-  }
-
-  .article-title {
-    background: transparent;
-  }
-
-  .article-title > a {
-    color: $highlight-dark;
-  }
-
-  .article-description {
-    color: $text-dark;
-  }
-
-  .article-subtitle > span {
-    color: $text-dark;
-  }
-
-  p > a,
-  li > a,
-  h1 > a {
-    color: $highlight-dark;
-  }
-
-  p {
-    font-weight: 250;
-  }
-
-  .prev-link,
-  .next-link {
-    color: $highlight-dark;
-  }
-
-  blockquote {
-    color: $text-light;
-  }
-}
-
 /* Smartphones (portrait) ----------- */
 
 @media only screen and (max-width: 720px) {
   .index-link {
-    font-size: 0.9em;
+    font-size: 0.9rem;
   }
 
   .index-link > h1 {

@@ -1,14 +1,4 @@
-$text-light: #282c34;
-$text-dark: #f8f8f8;
-
-$background-light: #f8f8f8;
-$background-dark: #1a232d;
-
-$icon-light: #282c34;
-$icon-dark: #f8f8f8;
-
-$highlight-light: #349268;
-$highlight-dark: #41b883;
+@import './variables.scss';
 
 html {
   min-height: 100vh;
@@ -22,4 +12,61 @@ body {
 
 button::-moz-focus-inner {
   border: 0;
+}
+
+.darkTheme {
+  color: $text-dark;
+  background-color: $background-dark;
+
+  .index-link {
+    color: $text-dark;
+  }
+
+  .layout-title > span {
+    color: $highlight-dark;
+  }
+
+  .icon {
+    filter: invert(1);
+  }
+
+  .article-date {
+    color: $text-dark;
+  }
+
+  .article-title {
+    background: transparent;
+  }
+
+  .article-title > a {
+    color: $highlight-dark;
+  }
+
+  .article-description {
+    color: $text-dark;
+  }
+
+  .article-subtitle > span {
+    color: $text-dark;
+  }
+
+  p > a,
+  li > a,
+  h1 > a {
+    color: $highlight-dark;
+  }
+
+  p {
+    font-weight: 250;
+  }
+
+  .prev-link,
+  .next-link {
+    color: $highlight-dark;
+  }
+
+  blockquote {
+    color: $text-light;
+    border-color: $highlight-dark;
+  }
 }

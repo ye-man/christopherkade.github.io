@@ -42,7 +42,7 @@ export default {
 <style lang="scss">
 .article-title {
   font-size: 1.75rem;
-  font-weight: 300;
+  font-weight: $default-font-weight;
   margin-bottom: 0.5rem;
 }
 
@@ -55,6 +55,7 @@ export default {
   color: $text-light;
   font-size: 1.1rem;
   margin-top: 0.2rem;
+  font-weight: $default-font-weight;
 }
 
 .article-title:hover {
@@ -63,14 +64,14 @@ export default {
 
 .article-subtitle {
   color: $text-light;
-  font-weight: 400;
+  font-weight: $default-font-weight;
 }
 
 .article-subtitle > time {
-  font-size: 1em;
+  font-size: 1rem;
 }
 
 .article-subtitle > span {
-  font-size: 0.8em;
+  font-size: 0.8rem;
 }
 </style>

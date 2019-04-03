@@ -94,7 +94,7 @@ export default {
   text-decoration: none;
   font-weight: bold;
   color: $highlight-light;
-  font-size: 0.9em;
+  font-size: 0.9rem;
 }
 
 .prev-link:hover,
@@ -107,11 +107,11 @@ export default {
 }
 
 .article-slug > h1 {
-  font-size: 2em;
+  font-size: 2rem;
 }
 
 p {
-  font-weight: 400;
+  font-weight: $default-font-weight;
 }
 
 p > a,
@@ -127,10 +127,14 @@ li > a:hover {
   opacity: 0.75;
 }
 
+code {
+  font-size: 1rem;
+}
+
 /* Article title */
 section > h1 {
-  font-size: 2.5em;
-  font-weight: 300;
+  font-size: 2.5rem;
+  font-weight: $default-font-weight;
 }
 
 /* Article images */
@@ -144,8 +148,10 @@ p > img {
 blockquote {
   background-color: #eeeeee;
   padding: 0.5rem 1.5rem;
-  border-radius: 4px;
-  margin: 0;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  margin: 2rem 0 2rem 0;
+  border-left: 2px solid $highlight-light;
 }
 
 @media only screen and (max-width: 1500px) {
@@ -172,6 +178,10 @@ blockquote {
     padding-left: 100px;
     padding-right: 100px;
   }
+
+  code {
+    font-size: 0.9rem;
+  }
 }
 
 /* Smartphones (portrait) ----------- */
@@ -189,15 +199,15 @@ blockquote {
   }
 
   p {
-    font-weight: 500;
+    font-weight: $default-font-weight;
   }
 
   code {
-    font-size: 0.9em;
+    font-size: 0.8rem;
   }
 
   section > h1 {
-    font-size: 2em;
+    font-size: 2rem;
   }
 }
 </style>

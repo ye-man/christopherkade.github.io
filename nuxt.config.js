@@ -40,7 +40,6 @@ module.exports = {
   ** Nuxt.js modules
   */
   modules: [
-    ,
     '@nuxtjs/style-resources',
     ['@nuxtjs/markdownit', { linkify: true }],
     [
