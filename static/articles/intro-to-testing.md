@@ -264,7 +264,8 @@ One of the most used code coverage tools our there is called [Istanbul](https://
 
 Tools like Istanbul generate a code coverage report in the form of HTML files that can help you have an overview of what parts of your code haven't been tested. It highlights the specific lines not covered during your unit tests to help you reach that sweet 100% coverage.
 
-> **Note**: code coverage isn't everything and 100% coverage doesn't mean you've tested every scenario for a given component, so you should only strive to it when it makes sense.
+> **Note**: code coverage isn't everything and 100% coverage doesn't mean you've tested every scenario for a given component, so you should only strive to it when it makes sense.   
+As noted by [@edaqa](https://twitter.com/edaqa), code coverage can be seen as a bad metric, as it may "provide a false sense of security by equating lines executed with lines tested" amongst other problems. So use it with caution as a way to have an overview over how much of your code is covered, and by not confusing a metric with an objective.
    
 <br>
 <br>
