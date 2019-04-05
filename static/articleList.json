@@ -1,5 +1,11 @@
 [
   {
+    "title": "Mentoring - a discussion at Algolia",
+    "description": "A talk for both mentors and mentees.",
+    "date": "Apr 5, 2019",
+    "path": "mentoring"
+  },
+  {
     "title": "Introduction to Front-End unit testing",
     "description": "A good start to your testing journey.",
     "date": "Apr 1, 2019",
