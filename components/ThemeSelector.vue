@@ -47,7 +47,7 @@ export default {
 
 .switch-night:after {
   position: absolute;
-  content: '🌙';
+  content: '🔆';
   height: 26px;
   width: 26px;
   right: -4px;
@@ -77,7 +77,7 @@ export default {
 }
 
 .slider:after {
-  content: '🔆';
+  content: '🌙';
   top: 12%;
   position: absolute;
   left: 4px;
