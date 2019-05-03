@@ -45,22 +45,26 @@ export default {
 
 @media only screen and (max-width: 1500px) {
   .index-wrapper {
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 18.75rem;
+    padding-right: 18.75rem;
   }
 }
 
 @media only screen and (max-width: 1280px) {
   .index-wrapper {
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 9.375rem;
+    padding-right: 9.375rem;
   }
 }
 
 @media only screen and (max-width: 1060px) {
   .index-wrapper {
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 6.25rem;
+    padding-right: 6.25rem;
+  }
+
+  .article {
+    padding: 1.5rem;
   }
 }
 
@@ -68,6 +72,10 @@ export default {
   .index-wrapper {
     padding-left: 0px;
     padding-right: 0px;
+  }
+
+  .article {
+    padding: 1rem;
   }
 }
 </style>

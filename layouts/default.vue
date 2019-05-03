@@ -4,7 +4,7 @@
     <theme-selector/>
     <nuxt-link to="/" class="index-link">
       <h1 class="layout-title">
-        <span>C</span>HRISTOPHER <span>K</span>ADE
+        CHRISTOPHER KADE
       </h1>
     </nuxt-link>
     <nuxt/>
@@ -27,7 +27,7 @@ export default {
 
 <style lang="scss">
 .layout-wrapper {
-  padding: 12px;
+  padding: 0.75rem;
   background-color: $background-light;
   transition: background-color 100ms ease-in-out, color 100ms ease;
 }
@@ -43,10 +43,6 @@ export default {
   font-weight: $default-font-weight;
 }
 
-.layout-title > span {
-  color: $highlight-light;
-}
-
 .contact-bar-bottom {
   display: none;
 }
@@ -59,7 +55,7 @@ export default {
   }
 
   .index-link > h1 {
-    margin-top: 50px;
+    margin-top: 3.125rem;
   }
 
   .layout-wrapper > .contact-bar-bottom {

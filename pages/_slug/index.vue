@@ -76,17 +76,17 @@ export default {
   display: flex;
   align-items: stretch;
   justify-content: space-between;
-  margin-top: 40px;
+  margin-top: 2.5rem;
 }
 
 .prev-link {
-  margin-right: 12px;
-  margin-bottom: 12px;
+  margin-right: 0.75rem;
+  margin-bottom: 0.75rem;
 }
 
 .next-link {
-  margin-left: 12px;
-  margin-bottom: 12px;
+  margin-left: 0.75rem;
+  margin-bottom: 0.75rem;
 }
 
 .prev-link,
@@ -139,7 +139,7 @@ section > h1 {
 
 /* Article images */
 p > img {
-  margin: 16px;
+  margin: 1rem;
   width: 50%;
   height: 70%;
 }
@@ -156,15 +156,15 @@ blockquote {
 
 @media only screen and (max-width: 1500px) {
   .article-slug {
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 18.75rem;
+    padding-right: 18.75rem;
   }
 }
 
 @media only screen and (max-width: 1280px) {
   .article-slug {
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 9.375rem;
+    padding-right: 9.375rem;
   }
 }
 
@@ -175,8 +175,8 @@ blockquote {
   }
 
   .article-slug {
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 6.25rem;
+    padding-right: 6.25rem;
   }
 
   code {
@@ -188,8 +188,8 @@ blockquote {
 
 @media only screen and (max-width: 720px) {
   .article-slug {
-    padding-left: 24px;
-    padding-right: 24px;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .links {

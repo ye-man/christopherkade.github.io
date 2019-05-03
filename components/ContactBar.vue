@@ -15,7 +15,7 @@
 <style lang="scss">
 .contact-bar-wrapper {
   position: fixed;
-  margin-right: 24px;
+  margin-right: 1.5rem;
   right: 0;
   display: flex;
   flex-direction: column;
@@ -24,7 +24,7 @@
 }
 
 .contact-bar-wrapper > a > img {
-  width: 50px;
+  width: 3.125rem;
 }
 
 .contact-bar-wrapper > a > img:hover {
@@ -34,14 +34,14 @@
 
 @media only screen and (max-width: 720px) {
   .contact-bar-wrapper > a {
-    margin: 12px;
+    margin: 0.75rem;
   }
 
   .contact-bar-wrapper {
     width: 100%;
     position: relative;
     height: auto;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     margin-right: 0;
     text-align: center;
   }

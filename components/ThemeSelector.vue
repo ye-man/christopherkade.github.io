@@ -21,8 +21,8 @@ export default {
 .switch {
   position: relative;
   display: inline-block;
-  width: 60px;
-  height: 34px;
+  width: 3.75rem;
+  height: 2.125rem;
   z-index: 1;
 }
 
@@ -47,11 +47,11 @@ export default {
 
 .switch-night:after {
   position: absolute;
-  content: '🔆';
-  height: 26px;
-  width: 26px;
-  right: -4px;
-  bottom: 4px;
+  content: '🌙';
+  height: 1.625rem;
+  width: 1.625rem;
+  right: -0.25rem;
+  bottom: 0.25rem;
   top: 12%;
   z-index: 0;
 }
@@ -66,10 +66,10 @@ export default {
 .slider:before {
   position: absolute;
   content: '';
-  height: 26px;
-  width: 26px;
-  left: 4px;
-  bottom: 4px;
+  height: 1.625rem;
+  width: 1.625rem;
+  left: 0.25rem;
+  bottom: 0.25rem;
   background-color: white;
   -webkit-transition: 0.4s;
   transition: 0.4s;
@@ -77,10 +77,10 @@ export default {
 }
 
 .slider:after {
-  content: '🌙';
+  content: '🔆';
   top: 12%;
   position: absolute;
-  left: 4px;
+  left: 0.25rem;
   z-index: 0;
 }
 
@@ -99,10 +99,10 @@ input:checked + .slider:before {
 }
 
 .slider.round {
-  border-radius: 2px;
+  border-radius: 0.125rem;
 }
 
 .slider.round:before {
-  border-radius: 2px;
+  border-radius: 0.125rem;
 }
 </style>
