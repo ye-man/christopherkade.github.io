@@ -24,7 +24,6 @@ export default {
 }
 </script>
 
-
 <style lang="scss">
 .layout-wrapper {
   padding: 0.75rem;
