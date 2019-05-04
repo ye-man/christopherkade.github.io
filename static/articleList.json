@@ -1,5 +1,11 @@
 [
   {
+    "title": "Introduction to React Hooks",
+    "description": "From class to functional components.",
+    "date": "May 4, 2019",
+    "path": "react-hooks"
+  },
+  {
     "title": "Mentoring - a discussion at Algolia",
     "description": "A talk for both mentors and mentees.",
     "date": "Apr 5, 2019",
