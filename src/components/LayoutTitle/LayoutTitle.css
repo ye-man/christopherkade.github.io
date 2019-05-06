@@ -1,0 +1,33 @@
+.layout-title {
+  font-size: 5rem;
+  margin: 0;
+  padding-left: 5rem;
+  font-weight: 2000;
+  color: white;
+  text-align: left;
+}
+
+.layout-title > a {
+  color: rgba(255, 255, 255, 0.3);
+  transition: 0.3s color;
+  text-decoration: none;
+}
+
+.layout-title > a:hover {
+  color: #4DA173;
+  cursor: pointer;
+}
+
+@media only screen and (max-width : 768px) {
+  .layout-title {
+    font-size: 2rem;
+    text-align: center;
+    padding-left: 0;
+  }
+}
+
+@media only screen and (max-width : 360px) {
+  .layout-title {
+    margin: 1rem;
+  }
+}

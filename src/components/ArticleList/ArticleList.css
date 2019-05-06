@@ -1,0 +1,21 @@
+.list {
+  display: grid;
+  grid-template-columns: 300px 300px;
+  grid-row-gap: 1rem;
+  grid-column-gap: 3.5rem;
+  justify-content: center;
+  width: 100%;
+}
+
+@media only screen and (max-width : 768px) {
+  .list {
+    grid-template-columns: 40vw 40vw;
+  }
+}
+
+@media only screen and (max-width : 360px) {
+  .list {
+    grid-template-columns: 1fr;
+    padding: 1rem;
+  }
+}
