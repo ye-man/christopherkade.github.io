@@ -35,7 +35,7 @@ module.exports = {
       options: {
         fonts: [
           {
-            family: `Merriweather Sans`,
+            family: `Raleway`,
           },
         ],
       },
