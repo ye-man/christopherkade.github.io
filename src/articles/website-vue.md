@@ -2,7 +2,7 @@
 title: "Rewriting my website using Vue"
 description: "I was this close to making a Vue pun."
 date: "2018-05-20"
-path: "/website-vue"
+path: "/blog/website-vue"
 ---
 
 # Rewriting my website using Vue

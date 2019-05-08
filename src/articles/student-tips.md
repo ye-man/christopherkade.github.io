@@ -2,7 +2,7 @@
 title: "Tips I wish I knew when starting studying Software Engineering"
 description: "Reflecting on five years of studying."
 date: "2019-02-11"
-path: "/student-tips"
+path: "/blog/student-tips"
 ---
 
 Computer programming overall is an odd field, isn't it? We can improve ourselves on so many fronts and yet, students tend to overlook important skills that will be game-changers in their early career.

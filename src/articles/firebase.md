@@ -2,7 +2,7 @@
 title: "Using Firebase Google Authentication in your web projects"
 description: "It's extremely easy to set up and should get your project up and running in a minute."
 date: "2019-03-05"
-path: "/firebase"
+path: "/blog/firebase"
 ---
 
 [Firebase](https://firebase.google.com/) is a pretty great tool to build applications without having to worry about an infrastructure. It allows you to manage a multitude of aspects that would normally take many hours to implement such as authentication, databases, storage, monitoring and so on.  

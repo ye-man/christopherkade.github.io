@@ -1,6 +1,6 @@
 import React from "react"
 
-import "./ArticleContent.css"
+import "./ArticleContent.scss"
 
 const ArticleContent = (props) => {
   return (

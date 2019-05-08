@@ -2,7 +2,7 @@
 title: "Designing for Developers - a discussion at Algolia"
 description: "What are the differences between designing for developers VS for end consumers? How do developers perceive design?"
 date: "2019-01-23"
-path: "/designing-for-devs"
+path: "/blog/designing-for-devs"
 ---
 
 Last week I attended a Tech Lunch at [Algolia](https://www.algolia.com/)'s Paris offices on the subject of _designing for developers_. I had a really fun time discovering their offices, sharing some food with my colleagues, listening to talented designers and of course, networking ! I'll share some pictures of my time there and of course briefly cover what was said during the discussion.

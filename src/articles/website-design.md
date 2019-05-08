@@ -2,7 +2,7 @@
 title: "2017 in review - The multiple designs of christopherkade.com"
 description: "Spoiler: 2017 Christopher had terrible taste."
 date: "2018-02-12"
-path: "/website-design"
+path: "/blog/website-design"
 ---
 
 My [personal website](https://christopherkade.com/) has seen many iterations in 2017. I often find myself bored of a certain design and restarting it from scratch as it allows me to work on my creativity and skills.

@@ -2,7 +2,7 @@
 title: "How Mob Programming can help developers"
 description: "Trust me, it's fun."
 date: "2018-10-25"
-path: "/mob-programming"
+path: "/blog/mob-programming"
 ---
 
 I'm currently interning at a consulting firm "specialized in software architecture and Agile methods with a threefold-expertise in consulting, realization and training" called [Zenika](https://www.zenika.com/).  

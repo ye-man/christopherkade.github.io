@@ -2,7 +2,7 @@
 title: "Introduction to React Hooks"
 description: "From class to functional components."
 date: "2019-05-04"
-path: "/react-hooks"
+path: "/blog/react-hooks"
 ---
 
 React Hooks have been on everyone's mind for a while now, and now that the hype has died down, I thought it would be nice to write a short introduction on them and go through concrete use-cases.
@@ -24,7 +24,7 @@ To follow along, feel free to clone the following [repository](https://github.co
 
 Alright, we have the following class-based component:
 
-```js
+```javascript
 class ExampleUS extends React.Component {
   state = {
     value: ''

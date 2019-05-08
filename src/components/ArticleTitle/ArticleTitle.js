@@ -1,6 +1,6 @@
 import React from "react"
 
-import "./ArticleTitle.css"
+import "./ArticleTitle.scss"
 
 const ArticleTitle = ({ title }) => {
   return (

@@ -1,14 +1,15 @@
 import React from "react"
-import Layout from "../components/layout"
+
 import SEO from "../components/seo"
+import Layout from "../components/layout"
 
-import { ArticleList } from "../components/ArticleList"
+import { AboutContent } from "../components/AboutContent"
 
-const IndexPage = () => (
+const About = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <ArticleList />
+    <SEO title="Home" keywords={[`christopher`, `kade`, `webdev`]} />
+    <AboutContent />
   </Layout>
 )
 
-export default IndexPage
+export default About

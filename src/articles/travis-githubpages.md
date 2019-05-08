@@ -2,7 +2,7 @@
 title: "Automatically deploying a website to Github pages using Travis CI"
 description: "Set up a deployment pipeline in a few lines of configuration."
 date: "2018-10-15"
-path: "/travis-githubpages"
+path: "/blog/travis-githubpages"
 ---
 
 **Travis CI** is a continuous integration service used to build and test software hosted on Github.  

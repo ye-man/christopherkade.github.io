@@ -2,7 +2,7 @@
 title: "Define quality requirements for your projects"
 description: "What I've learned during my internship and what it means."
 date: "2017-11-20"
-path: "/requirements"
+path: "/blog/requirements"
 ---
 
 I was lucky enough to do an internship in a company that embraces agile software development, and for a young developer, this allowed me to have an overview of something that will have an integral part in my professional career.

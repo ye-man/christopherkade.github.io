@@ -2,7 +2,7 @@
 title: "Building a CLI with Yargs"
 description: "YAAARG(S) MATEY!"
 date: "2019-02-07"
-path: "/yargs-cli"
+path: "/blog/yargs-cli"
 ---
 
 # Building a CLI with Yargs

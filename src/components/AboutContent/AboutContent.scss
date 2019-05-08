@@ -1,0 +1,48 @@
+@import "../../styles/variables";
+
+.about {
+  max-width: 45vw;
+}
+
+.about-p {
+  font-size: 1.2rem;
+}
+
+.about-img-container {
+  margin: 2rem;
+  text-align: center;
+}
+
+.about-img {
+  border-radius: 3px;
+  width: 250px;
+  height: 250px;
+}
+
+.about-img-text {
+  font-style: italic;
+  font-size: 0.8rem;
+}
+
+.about-secondary-title {
+  font-size: 1.2rem;
+  color: $primary;
+  margin-top: 2rem;
+}
+
+@media only screen and (max-width: $breakpoint-normal) {
+  .about {
+    max-width: 100vw;
+  }
+}
+
+@media only screen and (max-width: $breakpoint-small) {
+  .about {
+    max-width: 100vw;
+  }
+
+  .about-img-container {
+    margin: 0;
+  }
+
+}

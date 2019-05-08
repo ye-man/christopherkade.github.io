@@ -12,7 +12,7 @@ module.exports = {
         path: `${__dirname}/src/images`,
         name: `images`,
       },
-    },    
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -20,7 +20,20 @@ module.exports = {
         name: `markdown-pages`,
       }
     },
-    `gatsby-transformer-remark`,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-prismjs`,
+            options: {
+              classPrefix: "language-",
+              aliases: { js: "javascript" },
+            },
+          },
+        ]
+      }
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
@@ -35,7 +48,7 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
-    `gatsby-transformer-json`,    
+    `gatsby-transformer-json`,
     {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {
@@ -46,8 +59,6 @@ module.exports = {
         ],
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-sass`
   ],
 }

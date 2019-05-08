@@ -2,14 +2,14 @@
 title: "Mentoring - A discussion at Algolia"
 description: "A talk for both mentors and mentees."
 date: "2019-04-05"
-path: "/mentoring"
+path: "/blog/mentoring"
 ---
 
 Once more, I managed to attend one of Algolia's TechLunch. This time the subject was mentoring, more specifically: why mentor, the difference between a mentor, a coach and a sponsor and how to find a mentor were all questions that were covered by three wonderful speakers:
 
 <br>
 
-<img width="100%" alt="Presenter slide" src="https://user-images.githubusercontent.com/15229355/55624543-948d8100-57a6-11e9-8a4b-0b25af645d58.png">
+<img style="max-width: 100%" alt="Presenter slide" src="https://user-images.githubusercontent.com/15229355/55624543-948d8100-57a6-11e9-8a4b-0b25af645d58.png">
 
 <br>
 

@@ -2,7 +2,7 @@
 title: "My journey discovering Phaser, an HTML5 game framework"
 description: "Nobody will play it but hey, it was fun."
 date: "2017-11-17"
-path: "/intro-phaser"
+path: "/blog/intro-phaser"
 ---
 
 This blog post sums up my journey of learning how to use the famous (and free) HTML5 game framework Phaser.

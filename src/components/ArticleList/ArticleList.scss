@@ -1,0 +1,30 @@
+@import "../../styles/_variables.scss";
+
+.list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row-gap: 2rem;
+  grid-column-gap: 3.5rem;
+  justify-items: center;
+  width: 100%;
+}
+
+@media only screen and (max-width: $breakpoint-normal) {
+  .list {
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 2rem;
+  }
+}
+
+@media only screen and (max-width: $breakpoint-medium) {
+  .list {
+    grid-template-columns: 1fr;
+    grid-column-gap: 0.2rem;
+  }
+}
+
+@media only screen and (max-width: $breakpoint-small) {
+  .list {
+    grid-template-columns: 1fr;
+  }
+}

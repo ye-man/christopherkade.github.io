@@ -2,7 +2,7 @@
 title: "Create and deploy a Jekyll blog to Github pages"
 description: "Obligatory 'here is how I made this blog' first post."
 date: "2017-09-20"
-path: "/jekyll-blog"
+path: "/blog/jekyll-blog"
 ---
 
 # Create and deploy a Jekyll blog to Github pages

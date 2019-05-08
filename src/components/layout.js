@@ -1,19 +1,15 @@
 import React from "react"
 import PropTypes from "prop-types"
-import Particles from 'react-particles-js';
 
-import { LayoutTitle } from "../components/LayoutTitle"
-import "./layout.css"
-import backgroundConfig from "../../static/background-config.json"
+import "./Layout.scss"
+import { Navbar } from "./Navbar"
 
-const Layout = ({ children }) => (  
+
+const Layout = ({ children }) => (
   <>
-    <Particles className="particles" height="100vh" width="100vw" params={backgroundConfig}/>
+    <Navbar />
     <div className="layout">
-      <div>
-        <LayoutTitle/>
-      </div>
-      <main>{children}</main>          
+      <main>{children}</main>
     </div>
   </>
 )

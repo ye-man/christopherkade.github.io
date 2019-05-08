@@ -1,0 +1,22 @@
+@import "../styles/_global.scss";
+@import "../styles/_variables.scss";
+
+.layout {
+  padding: 4rem 4rem 4rem calc(#{$navbar-width} + 4rem);
+}
+
+.layout > main {
+  width: 100%;
+}
+
+@media only screen and (max-width : $breakpoint-medium) {
+  .layout {
+    padding: calc(#{$navbar-height} + 4rem) 4rem 4rem 4rem;
+  }
+}
+
+@media only screen and (max-width: $breakpoint-small) {
+  .layout {
+    padding: calc(#{$navbar-height} + 2rem) 2rem 2rem 2rem;
+  }
+}

@@ -2,7 +2,7 @@
 title: "Developing the Star Wars opening crawl in HTML/CSS"
 description: "I have a bad feeling about this."
 date: "2018-01-15"
-path: "/star-wars"
+path: "/blog/star-wars"
 ---
 
 # Developing the Star Wars opening crawl in HTML/CSS

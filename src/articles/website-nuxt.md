@@ -2,7 +2,7 @@
 title: "Rewriting my website using NuxtJS"
 description: "What it is, why it rocks, how I did it."
 date: "2018-10-10"
-path: "/website-nuxt"
+path: "/blog/website-nuxt"
 ---
 
 # Rewriting my website using NuxtJS

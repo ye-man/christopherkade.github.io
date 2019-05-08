@@ -2,7 +2,7 @@
 title: "Understanding the Node.js Event Loop"
 description: "A surface level explanation to understand how it functions."
 date: "2019-01-13"
-path: "/node-eventloop"
+path: "/blog/node-eventloop"
 ---
 
 Next week, I will be presenting Node's Event Loop system (we'll call it the EL from now on) during a [BBL](https://www.hrzone.com/hr-glossary/what-is-a-brown-bag-lunch) organized by [Zenika](https://www.zenika.com/). I chose this subject as I always wanted to delve deeper in my understanding of it and this was the perfect opportunity to do so.
