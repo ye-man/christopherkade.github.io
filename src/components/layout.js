@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 
 import "./Layout.scss"
 import { Navbar } from "./Navbar"
-
+import { MobileFooter } from "./MobileFooter"
 
 const Layout = ({ children }) => (
   <>
@@ -11,6 +11,7 @@ const Layout = ({ children }) => (
     <div className="layout">
       <main>{children}</main>
     </div>
+    <MobileFooter />
   </>
 )
 

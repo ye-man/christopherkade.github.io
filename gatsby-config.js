@@ -1,18 +1,11 @@
 module.exports = {
   siteMetadata: {
     title: `Christopher Kade - Web, Javascript & Tech blog`,
-    description: `Placeholder description`,
+    description: `Christopher Kade's blog - I mostly write about the Web, Javascript, Technology and Self Improvement.`,
     author: `@christo_kade`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/src/images`,
-        name: `images`,
-      },
-    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -36,18 +29,6 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
-        start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
-        display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
-      },
-    },
     `gatsby-transformer-json`,
     {
       resolve: `gatsby-plugin-prefetch-google-fonts`,

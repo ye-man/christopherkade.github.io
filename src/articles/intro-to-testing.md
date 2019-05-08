@@ -5,8 +5,6 @@ date: "2019-04-01"
 path: "/blog/intro-to-testing"
 ---
 
-# Introduction to Front-End unit testing
-
 Alright, you've dabbled with web developments, made a few projects here and there, deployed a few applications that helped you grasp essential concepts of Front-End development, from routing, server-side rendering, state-management to asynchronous queries etc.    
 
 But there's one thing you haven't put to practice, either because you were willingly avoiding it, or simply because you didn't see its use: testing. More specifically, Front-End unit testing, one *very important* part of the testing ecosystem.

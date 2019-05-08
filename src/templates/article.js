@@ -2,6 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
+import SEO from "../components/seo"
 import { ArticleTitle } from "../components/ArticleTitle"
 import { ArticleContent } from "../components/ArticleContent"
 
@@ -13,6 +14,7 @@ export default function Template({
 
   return (
     <Layout>
+      <SEO title={frontmatter.title} description={frontmatter.description} keywords={[`christopher`, `kade`, `webdev`]} />
       <div className="article">
         <ArticleTitle title={frontmatter.title} />
         <ArticleContent content={html} />

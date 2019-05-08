@@ -1,0 +1,19 @@
+@import "../../styles/variables";
+
+.footer {
+  display: none;
+}
+
+.footer > a {
+  margin: 1rem;
+}
+
+@media only screen and (max-width : $breakpoint-medium) {
+  .footer {
+    display: block;
+    background-color: $secondary;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+}

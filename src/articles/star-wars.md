@@ -5,8 +5,6 @@ date: "2018-01-15"
 path: "/blog/star-wars"
 ---
 
-# Developing the Star Wars opening crawl in HTML/CSS
-
 To celebrate **Star Wars: The Last Jedi** coming to theaters I decided to implement a fun easter egg on my [personal website](https://christopherkade.com/).
 
 I wanted to display the saga's famous [opening crawl](http://starwars.wikia.com/wiki/Opening_crawl) when a user inputs the [Konami Code](https://en.wikipedia.org/wiki/Konami_Code).

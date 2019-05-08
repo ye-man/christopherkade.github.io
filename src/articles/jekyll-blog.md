@@ -5,8 +5,6 @@ date: "2017-09-20"
 path: "/blog/jekyll-blog"
 ---
 
-# Create and deploy a Jekyll blog to Github pages
-
 What better way to inaugurate my blog than to explain how to set up something similar?
 
 This blog uses a commonly used tool and service: **Jekyll** and **Github Pages**.

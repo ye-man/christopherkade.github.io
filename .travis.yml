@@ -1,0 +1,17 @@
+language: 'node_js'
+node_js: '8'
+
+before_script:
+  - yarn build
+  - cp ./public/index.html ./public/404.html
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  local_dir: public
+  repo: christopherkade/christopherkade.github.io
+  fqdn: christopherkade.com
+  target_branch: master
+  on:
+    branch: code
