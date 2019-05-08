@@ -22,7 +22,7 @@ const ArticleCard = (props) => {
 
   return (
     <div className="card">
-      <Link className="card-link" to={path} >
+      <Link className="card-link" to={path}>
         <time>{getConvertedDate(date)} | <span role="img" aria-label="">⌛️</span>{readTime} min read</time>
         <span>
           <h2 className="card-title">{title}</h2>
