@@ -5,8 +5,6 @@ date: "2018-10-10"
 path: "/blog/website-nuxt"
 ---
 
-# Rewriting my website using NuxtJS
-
 A few days ago I published the latest version of my website, completely redone using [NuxtJS](https://nuxtjs.org/).
 
 You're probably saying to yourself, "Why Chris, why rewrite your website AGAIN?", and I hear you dear reader, I truly do, but please keep on reading as I'll explain my reasoning as best I can.
