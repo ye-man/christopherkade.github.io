@@ -5,8 +5,6 @@ date: "2018-05-20"
 path: "/blog/website-vue"
 ---
 
-# Rewriting my website using Vue
-
 I finally started fiddling with [Vue](https://vuejs.org/) in my free time and I'm happy to say I've fallen in love with this framework.
 
 I'll go over the things I've learned and the changes I've had to implement in order to rewrite my website from Angular to Vue.

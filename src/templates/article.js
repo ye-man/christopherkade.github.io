@@ -3,8 +3,8 @@ import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { ArticleTitle } from "../components/ArticleTitle"
-import { ArticleContent } from "../components/ArticleContent"
+import { ArticleTitle } from "../components/Article/ArticleTitle"
+import { ArticleContent } from "../components/Article/ArticleContent"
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.

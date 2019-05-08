@@ -5,8 +5,6 @@ date: "2019-02-07"
 path: "/blog/yargs-cli"
 ---
 
-# Building a CLI with Yargs
-
 [Yargs](http://yargs.js.org/) is a great library to build command line apps, simply put, it will make the process of creating an application that runs in the console a breeze. What could make it even better? It's PIRATE themed (it's called YARgs you guys), making it officially the best tool ever.
 
 You may know other CLIs such as [vue-cli](https://cli.vuejs.org/) to easily set up a Vue.js project or [create-react-app](https://facebook.github.io/create-react-app/), so the concept should be familiar to most of you.
