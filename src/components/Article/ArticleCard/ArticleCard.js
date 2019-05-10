@@ -14,7 +14,7 @@ const getConvertedDate = (date) => {
   ];
   const dateData = date.split("-")
   const month = monthNames[parseInt(dateData[1]) - 1]
-  return `${month} ${dateData[1]}, ${dateData[0]}`
+  return `${month} ${dateData[2]}, ${dateData[0]}`
 }
 
 const ArticleCard = (props) => {
