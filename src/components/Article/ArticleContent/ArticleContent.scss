@@ -11,3 +11,13 @@ blockquote {
 ol {
   margin-top: 2rem;
 }
+
+.article-img {
+  width: 50%;
+}
+
+@media only screen and (max-width : $breakpoint-normal) {
+  .article-img {
+    width: 100%;
+  }
+}

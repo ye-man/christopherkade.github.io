@@ -9,6 +9,10 @@ Flexbox is a must in today's UI development world as it lets you create responsi
 
 We'll go through concrete examples one at at time and build the following [UI](https://codepen.io/christopherkade/pen/MdyQJE) containing a navbar and a list of cards.  
 
+<div style="display: flex; align-items: center; justify-content: center">
+<img class="article-img" alt="render of the component mentioned" src="https://user-images.githubusercontent.com/15229355/57548653-cd9ab180-7361-11e9-9820-00ddda69e799.png">
+</div>
+
 Throughout each step, we'll learn essential Flexbox concepts to get you going on the right foot, so feel free to create your own [codepen](https://codepen.io/) to try them out.
 
 <br>
