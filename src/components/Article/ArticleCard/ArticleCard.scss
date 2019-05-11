@@ -58,5 +58,11 @@
   .card {
     width: 100%;
     height: 250px;
+    transition: none;
+  }
+
+  .card:hover {
+    transform: none;
+    background-color: $secondary;
   }
 }
