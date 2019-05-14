@@ -2,14 +2,25 @@
 
 blockquote {
   background-color: transparent;
-  border: 1px solid $primary;
+  border-left: 0.25rem solid $primary;
   padding: 0.5rem 1rem;
-  border-radius: 4px;
-  margin: 2rem 0;
+  margin: 2rem;
 }
 
 ol {
   margin-top: 2rem;
+}
+
+h2 {
+  color: $primary;
+}
+
+summary:focus {
+  outline: transparent;
+}
+
+summary:hover {
+  cursor: pointer;
 }
 
 .article-img {
