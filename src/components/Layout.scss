@@ -17,6 +17,6 @@
 
 @media only screen and (max-width: $breakpoint-small) {
   .layout {
-    padding: calc(#{$navbar-height} + 2rem) 2rem 2rem 2rem;
+    padding: calc(#{$navbar-height} + 1rem) 1rem 1rem 1rem;
   }
 }

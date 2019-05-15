@@ -23,11 +23,26 @@ summary:hover {
   cursor: pointer;
 }
 
+:not(pre) > code[class*="language-jsx"], pre[class*="language-jsx"] {
+  border-radius: 4px;
+}
+
+:not(pre) > code[class*="language-text"], pre[class*="language-text"] {
+  background-color: rgba(255, 229, 100, 0.2);
+  color: $text;
+  border-radius: 0.3rem;
+  padding: .15em .2em .05em;
+}
+
 .article-img {
   width: 50%;
 }
 
 @media only screen and (max-width : $breakpoint-normal) {
+  blockquote {
+    margin: 0;
+  }
+
   .article-img {
     width: 100%;
   }
