@@ -39,6 +39,7 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "new-article": "node ./src/scripts/generateArticle.js"
+    "new-article": "node ./src/scripts/generateArticle.js",
+    "test": "echo 'No tests found'"
   }
 }
