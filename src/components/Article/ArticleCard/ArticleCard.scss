@@ -1,20 +1,23 @@
 @import "../../../styles/variables";
 
 .card {
+  z-index: 1;
+  position: relative;
+  padding: 0.5em 1em;
+  overflow: hidden;
   border-radius: 3px;
   background-color: $secondary;
   padding: 1rem;
   width: 300px;
   height: 250px;
-  transition: all 0.2s ease-out;
   margin-bottom: 2rem;
   margin-right: 2rem;
+  transition: all 0.2s ease-out;
 }
 
 .card:hover {
   background-color: $primary;
   cursor: pointer;
-  transform: translateY(-0.2rem);
 }
 
 .card:last-child {
@@ -46,15 +49,25 @@
   color: white;
 }
 
-@media only screen and (max-width : $breakpoint-normal) {
-  .card {
-    width: 100%;
-    height: 250px;
-    margin-right: 0;
-  }
+/* Hover animations */
+
+.left:hover {
+  transform: translateX(0.2rem);
 }
 
-@media only screen and (max-width : $breakpoint-medium) {
+.right:hover {
+  transform: translateX(-0.2rem);
+}
+
+.top:hover {
+  transform: translateY(0.2rem);
+}
+
+.bottom:hover {
+  transform: translateY(-0.2rem);
+}
+
+@media (max-width: $breakpoint-normal) {
   .card {
     width: 100%;
     height: 250px;
