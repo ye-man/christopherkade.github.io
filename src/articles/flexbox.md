@@ -1,6 +1,6 @@
 ---
 title: "Flexbox 101"
-description: "Easy, responsive and elegant"
+description: "Easy, responsive and elegant."
 date: "2019-05-10"
 path: "/blog/flexbox"
 ---

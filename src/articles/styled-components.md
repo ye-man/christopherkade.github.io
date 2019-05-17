@@ -1,6 +1,6 @@
 ---
 title: "Styled components: what, why and how?"
-description: "A great way of styling your React projects"
+description: "A great way of styling your React projects."
 date: "2019-05-14"
 path: "/blog/styled-components"
 ---
