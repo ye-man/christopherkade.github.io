@@ -2,7 +2,7 @@
 title: "Create and deploy a Jekyll blog to Github pages"
 description: "Obligatory 'here is how I made this blog' first post."
 date: "2017-09-20"
-path: "/blog/jekyll-blog"
+path: "/jekyll-blog"
 ---
 
 What better way to inaugurate my blog than to explain how to set up something similar?

@@ -3,9 +3,19 @@ import { Link } from "gatsby"
 
 import "./Navbar.scss"
 
-const CustomLink = ({ path, text, partial = false }) => {
+const CustomLink = ({ path, text }) => {
+  /**
+   * Sets a link as active if it is currently visited
+   * Handles the highlighting of / when a blog article is visited
+   * @param {*} param0
+   */
+  const isActive = ({ isCurrent, isPartiallyCurrent, href, location }) => {
+    const { pathname } = location
+    return (isCurrent || (pathname !== "/about" && isPartiallyCurrent)) ? { className: "active" } : null
+  }
+
   return (
-    <Link to={path} activeClassName="active" partiallyActive={partial}>
+    <Link to={path} activeClassName="active" getProps={isActive} >
       {text}
     </Link>
   )
@@ -14,8 +24,8 @@ const CustomLink = ({ path, text, partial = false }) => {
 const Navbar = () => {
   return (
     <header className="navbar">
-      <CustomLink path="/" text="About" />
-      <CustomLink path="/blog" text="Blog" partial={true} />
+      <CustomLink path="/" text="Blog" partial={true} />
+      <CustomLink path="/about" text="About" />
 
       <div className="contact">
         <a href="https://twitter.com/christo_kade">

@@ -14,7 +14,7 @@ export default function Template({
 
   return (
     <Layout>
-      <SEO title={frontmatter.title} description={frontmatter.description} keywords={[`christopher`, `kade`, `webdev`]} />
+      <SEO title={frontmatter.title} description={frontmatter.description} keywords={[`christopher`, `kade`, `react`, `javascript`, `vue`]} />
       <div className="article">
         <ArticleTitle title={frontmatter.title} />
         <ArticleContent content={html} />

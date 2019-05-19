@@ -42,7 +42,7 @@ const generateArticleTemplate = (title, description, path) => {
 title: "${title}"
 description: "${description}"
 date: "${getCurrentDate()}"
-path: "/blog/${path}"
+path: "/${path}"
 ---`
 }
 

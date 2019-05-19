@@ -2,7 +2,7 @@
 title: "Developing the Star Wars opening crawl in HTML/CSS"
 description: "I have a bad feeling about this."
 date: "2018-01-15"
-path: "/blog/star-wars"
+path: "/star-wars"
 ---
 
 To celebrate **Star Wars: The Last Jedi** coming to theaters I decided to implement a fun easter egg on my [personal website](https://christopherkade.com/).

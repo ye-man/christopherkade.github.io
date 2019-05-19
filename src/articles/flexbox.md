@@ -2,7 +2,7 @@
 title: "Flexbox 101"
 description: "Easy, responsive and elegant."
 date: "2019-05-10"
-path: "/blog/flexbox"
+path: "/flexbox"
 ---
 
 Flexbox is a must in today's UI development world as it lets you create responsive and elegant layouts in record time 🙆‍♂️  

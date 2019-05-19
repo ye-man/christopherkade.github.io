@@ -33,7 +33,7 @@ const AboutContent = () => {
       <h1 className="about-secondary-title">Things I've done</h1>
 
       <p>My projects & open-source contributions, over on <a href="https://github.com/christopherkade">Github</a>.</p>
-      <p>My articles, right here on my <Link to="/blog">blog</Link> and sometimes on <a href="https://dev.to/christopherkade">dev.to</a>.</p>
+      <p>My articles, right here on my <Link to="/">blog</Link> and sometimes on <a href="https://dev.to/christopherkade">dev.to</a>.</p>
 
       <h1 className="about-secondary-title">Contacting me</h1>
 

@@ -2,7 +2,7 @@
 title: "Optimizing the performance of my personal website"
 description: "Incremental changes for a faster first meaningful paint."
 date: "2018-01-24"
-path: "/blog/optimisation"
+path: "/optimisation"
 ---
 
 My [personal website](https://christopherkade.com) has gone through **many** iterations of its front-end, more or less 4 of them so far (in less than a year). I find that rebuilding my website gives me a project outside of work to constantly work on, and allows me to apply acquired knowledge in a concrete manner. I'm also pretty picky when it comes to design, and I often get bored of the ones I've built in the past.

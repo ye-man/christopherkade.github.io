@@ -1,15 +1,14 @@
 import React from "react"
-
-import SEO from "../components/seo"
 import Layout from "../components/layout"
+import SEO from "../components/seo"
 
-import { AboutContent } from "../components/AboutContent"
+import { ArticleList } from "../components/Article/ArticleList"
 
-const About = () => (
+const Blog = () => (
   <Layout>
-    <SEO keywords={[`christopher`, `kade`, `webdev`]} />
-    <AboutContent />
+    <SEO title="Home" keywords={[`javascript`, `blog`, `react`]} />
+    <ArticleList />
   </Layout>
 )
 
-export default About
+export default Blog

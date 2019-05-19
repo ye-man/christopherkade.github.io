@@ -2,7 +2,7 @@
 title: "Rewriting my website using Vue"
 description: "I was this close to making a Vue pun."
 date: "2018-05-20"
-path: "/blog/website-vue"
+path: "/website-vue"
 ---
 
 I finally started fiddling with [Vue](https://vuejs.org/) in my free time and I'm happy to say I've fallen in love with this framework.

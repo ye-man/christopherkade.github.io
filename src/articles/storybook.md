@@ -2,7 +2,7 @@
 title: "Automatically deploying your Storybook to Github Pages"
 description: "Deploy your Storybooks to Github Pages using Travis CI in a matter of minutes."
 date: "2019-05-17"
-path: "/blog/storybook"
+path: "/storybook"
 ---
 
 [Storybook](https://storybook.js.org/) is a great tool, it allows you to organize your components into a neat little interface that looks something like [this](https://christopherkade.com/ReactCraft).  

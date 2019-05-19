@@ -2,7 +2,7 @@
 title: "Deploy a project page or a custom subdomain on Github pages"
 description: "Using AWS Route 53 and Github pages."
 date: "2017-10-02"
-path: "/blog/subdomain-githubpages"
+path: "/subdomain-githubpages"
 ---
 
 Have you noticed the URL of this blog?

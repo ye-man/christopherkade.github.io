@@ -2,7 +2,7 @@
 title: "HTML5 web APIs you might want to know"
 description: "Some are just for fun, others have a lot of potential."
 date: "2019-03-20"
-path: "/blog/web-apis"
+path: "/web-apis"
 ---
 
 I'll be presenting this super fun subject tomorrow during a BBL so I might as well write about it to consolidate what I've found.

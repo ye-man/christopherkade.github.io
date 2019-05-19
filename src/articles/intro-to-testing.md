@@ -2,7 +2,7 @@
 title: "Introduction to Front-End unit testing"
 description: "A good start to your testing journey."
 date: "2019-04-01"
-path: "/blog/intro-to-testing"
+path: "/intro-to-testing"
 ---
 
 Alright, you've dabbled with web developments, made a few projects here and there, deployed a few applications that helped you grasp essential concepts of Front-End development, from routing, server-side rendering, state-management to asynchronous queries etc.    

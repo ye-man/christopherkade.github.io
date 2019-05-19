@@ -2,7 +2,7 @@
 title: "Introduction to React Hooks"
 description: "From class to functional components."
 date: "2019-05-04"
-path: "/blog/react-hooks"
+path: "/react-hooks"
 ---
 
 React Hooks have been on everyone's mind for a while now, and now that the hype has died down, I thought it would be nice to write a short introduction on them and go through concrete use-cases.

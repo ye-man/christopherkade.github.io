@@ -2,7 +2,7 @@
 title: "Rewriting my website using NuxtJS"
 description: "What it is, why it rocks, how I did it."
 date: "2018-10-10"
-path: "/blog/website-nuxt"
+path: "/website-nuxt"
 ---
 
 A few days ago I published the latest version of my website, completely redone using [NuxtJS](https://nuxtjs.org/).
