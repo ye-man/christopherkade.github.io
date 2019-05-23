@@ -190,7 +190,7 @@ Navigating to `localhost:3000/about` will display this component's content
 
 ## Creating dynamic routes
 
-In the `/pages` folder, create a `.vue` a directory and a file prefixed by an underscore.
+In the `/pages` folder, create a directory and a file prefixed by an underscore.
 
 For example, the following file tree:
 
