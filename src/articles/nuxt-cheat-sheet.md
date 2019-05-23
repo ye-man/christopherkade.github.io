@@ -19,7 +19,7 @@ Before we get into anything concrete, let me explain what Nuxt.js is.
 
 ## What's Nuxt.js?
 
-Nuxt.js is a framework based on [Vue.js](https://vuejs.org/) that allows you to build fully fledged [**server-rendered**](https://www.youtube.com/watch?v=GQzn7XRdzxY) applications. 
+Nuxt.js is a framework based on [Vue.js](https://vuejs.org/) that allows you to build fully fledged [**server-rendered**](https://youtu.be/GQzn7XRdzxY?t=46) applications. 
 
 It comes out of the box with **loads** of useful packages:
 
